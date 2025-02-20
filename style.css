@@ -7,7 +7,7 @@ body {
   padding: 25px 20px;
   margin: 0 auto;
   text-align: center;
-  width: 100%;
+  width: 96%; /* I don't know why it needs to be smaller ;-; */
 }
 
 h2 {
@@ -33,13 +33,14 @@ h3 {
 }
 
 h2.second {
+  margin: 15px auto;
   background: #334983;
 }
 
 /* Set the maximum width of your burger */
 .burger {
   max-width: 500px;
-  margin: 0px auto 60px auto;
+  margin: 0 auto 20px auto;
 }
 
 /* This center-aligns all of the ingredients */
